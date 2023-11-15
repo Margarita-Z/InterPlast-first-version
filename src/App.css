@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gabarito&family=Inclusive+Sans&family=Montserrat&family=Poppins&family=Roboto&family=Space+Grotesk&family=Ubuntu&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* animate and transition stopper*/
+.resize-animation-stopper *{
+  animation:  none !important;
+  transition: none !important;
+}
+body{
+  font-family: 'Gabarito', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+.App{
+  overflow-x: hidden;
+}
