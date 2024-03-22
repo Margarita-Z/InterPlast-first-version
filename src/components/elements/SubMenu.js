@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { NavLink } from "react-router-dom";
 
 function SubMenu({ item }) {
     const [subnav, setSubnav] = useState(false);
@@ -7,7 +8,7 @@ function SubMenu({ item }) {
   
     return (
       <>
-        <a href={item.path} onClick={item.subNav && showSubnav} className='slidebar-link'>
+        <NavLink to={item.path} onClick={item.subMenu && showSubnav} className='slidebar-link'>
           <div>
             {item.icon}
             <span className='slidebar-label'>{item.title}</span>
@@ -15,18 +16,18 @@ function SubMenu({ item }) {
           <div>
             {item.subNav && subnav
               ? item.iconOpened
-              : item.subNav
+              : item.subMenu
               ? item.iconClosed
               : null}
           </div>
-        </a>
+        </NavLink>
         {subnav &&
-          item.subNav.map((item, index) => {
+          item.subMenu.map((item, index) => {
             return (
-              <a className='dropdown-link' href={item.path} key={index}>
+              <NavLink className='dropdown-link' to={"/product/" + item.id} key={index}>
                 {item.icon}
                 <span className='slidebar-label'>{item.title}</span>
-              </a>
+              </NavLink>
             );
           })}
       </>

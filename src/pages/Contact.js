@@ -1,15 +1,15 @@
 import React from "react";
 import "../assets/css/contact.css";
-import SectionTwo from "../components/sections/contact-us/SectionTwo";
-import SectionThree from "../components/sections/contact-us/SectionThree";
-import SectionOne from "../components/sections/contact-us/SectionOne";
+import ContactSectionOne from "../components/sections/contact-sections/ContactSectionOne";
+import ContactForm from "../components/sections/contact-sections/ContactForm";
+import FormContact from "../components/sections/contact-sections/FormContact";
 
 function Contact() {
   return (
     <div>
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
+      <ContactSectionOne />
+      <ContactForm />
+      <FormContact />
     </div>
   );
 }

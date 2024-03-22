@@ -8,11 +8,11 @@ export const SlidebarData = [
     subNav: [
       {
         title: "ПВЦ Канализациони цефки и фитинг SN 2",
-        path: "#"
+        path: "/product/sewage1"
       },
       {
         title: "ПВЦ Канализациони цефки и фитинг SN 4 / SN 8",
-        path: "#"
+        path: "/product/sewage2"
       },
     ],
   },
@@ -25,23 +25,23 @@ export const SlidebarData = [
     subNav: [
         {
             title: "ХДПЕ Црева",
-            path: "#"
+            path: "/product/plumbing1"
         },
         {
             title: "ЛДПЕ Црева",
-            path: "#"
+            path: "/product/plumbing2"
         },
         {
             title: " ПЕ Механички споен материјал за црева",
-            path: "#"
+            path: "/product/plumbing3"
         },
         {
             title: "ПП-Р Цевки и фитинг",
-            path: "#"
+            path: "/product/plumbing4"
         },
         {
             title: "КМ Цевки под притисок",
-            path: "#"
+            path: "/product/plumbing5"
         }
     ]
   },
@@ -54,24 +54,24 @@ export const SlidebarData = [
     subNav: [
         {
             title: "ПЕ Црева за наводнување",
-            path: "#"
+            path: "/products/drip-system1"
         },
         {
             title: "ПЕ Фитинг",
-            path: "#"
+            path: "/products/drip-system2"
         }
     ]
   },
   {
     title: "Бунарски цевки",
-    path: "#",
+    path: "/well-pipes",
   },
   {
     title: "ПЕ Црево за оптички кабел",
-    path: "#",
+    path: "/pe-Hose",
   },
   {
     title: "Tехничка пластика",
-    path: "#",
+    path: "/tehnical-plastic",
   }
 ];

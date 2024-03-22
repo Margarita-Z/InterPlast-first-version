@@ -1,0 +1,40 @@
+{
+    "home" : " Home",
+    "aboutUs" : "About us",
+    "ProductionProgram" : "Production program",
+    "contact": "Contact",
+    "navMenu" : {
+        "item1" : "Sewage",
+        "item2" : "Plumbing",
+        "item3" : "Drop System",
+        "item4" : "Well Pipes",
+        "item5" : "PE Hose For Optical Cable",
+        "item6" : "Technical Plastics"
+        
+    },
+    "homeSec1Heading" : "Water and sewage systems number 1 in Macedonia",
+    "interplast" : "INTERPLAST",
+    "homeSec1Subtite" : "offers a wide range of high quality sewage pipes and PE hoses. We manufacture products according to European standards, proving our leadership through private and public projects where our various products are used.",
+    "i" : "I",
+    "n" : "N",
+    "t" : "T",
+    "e" : "E",
+    "r" : "R",
+    "p" : "P",
+    "l" : "L",
+    "a" : "A",
+    "s" : "S",
+    "homeSec2Heading" : "Interplast has a solution for all your water system management problems.",
+    "homeSec2Subtite" : "Our range of products is wide and diverse, that's why the Interplast brand and its products are one of the most sought after on the Macedonian market, due to their outstanding quality, a quality comparable to European products on the market.",
+    "btn" : "More",
+    "homeSec3Heading1" : "Quality",
+    "homeSec3Subtite1" : "We are steadfast in meeting benchmark standards and consistent quality levels throughout our manufacturing process.",
+    "homeSec3Heading2" : "Innovations",
+    "homeSec3Subtite2" : "We lead the industry with technological advancements and operational breakthroughs.",
+    "homeSec3Heading3" : "Trust",
+    "homeSec3Subtite3" : "We operate with a strong sense of integrity and take seriously our commitment to ethical, honest and trustworthy business practices.",
+    "homeSec4-5TitleH1" : "Ours",
+    "homeSec4TitleS" : "Products"
+   
+
+}
